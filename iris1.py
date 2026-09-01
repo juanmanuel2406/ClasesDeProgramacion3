@@ -19,7 +19,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 
 #print(X.shape)
 
-model = KNeighborsClassifier(n_neighbors=1)
+model = KNeighborsClassifier(n_neighbors=25)
 
 #model.fit(X,Y)
 
